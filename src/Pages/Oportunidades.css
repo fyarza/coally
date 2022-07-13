@@ -1,0 +1,164 @@
+.section-one {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.input-contenedor {
+  background-color: #f6f6f5;
+  border-radius: 10px;
+  padding: 3px 1px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 1rem;
+}
+
+.input {
+  border: none;
+  border-style: none;
+  box-shadow: none;
+  flex: 1;
+  padding: 10px;
+  background: transparent;
+  outline: none;
+  font-size: 1rem;
+  color: #c4c4c4;
+}
+
+.section-two {
+  display: flex;
+  margin-top: 1rem;
+}
+.section-two p {
+  color: #dedfdf;
+  font-size: 1rem;
+  padding: 0;
+  margin: 0 0.2rem;
+}
+
+.section-two p:last-child {
+  color: black;
+}
+
+.section-three {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+}
+.section-three .cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-three .card {
+  width: 20rem;
+  box-shadow: -2px 2px 7px -3px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -2px 2px 7px -3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -2px 2px 7px -3px rgba(0, 0, 0, 0.75);
+  padding: 1rem;
+  border-radius: 10px;
+  margin-right: 2rem;
+}
+
+.section-three .card .card-header {
+  height: 5rem;
+  margin-bottom: 1rem;
+  background-color: #f3f3f3;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.section-three .card .card-body a {
+  color: #c4c4c4;
+}
+
+.section-three .card .card-footer {
+  margin-top: 1rem;
+}
+.section-three .card .card-footer button {
+  font-size: 1rem;
+  padding: 0.3rem 0.6rem;
+  font-weight: 550;
+  box-shadow: none;
+  border: none;
+}
+
+.section-three .card2 {
+  display: flex;
+  background-color: #e6e7e8;
+  border-radius: 10px;
+  padding: 3rem 5rem;
+}
+
+.section-three .card2 .card-item-left {
+  margin-right: 1rem;
+}
+.section-three .card2 .card-item-rigth {
+  margin-left: 1rem;
+}
+
+.section-four {
+  margin-top: 2rem;
+}
+
+.section-four .tab-header {
+  border-bottom: 1px solid #52575c;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.section-four .tab-header a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.section-four .tab {
+  margin-right: 15rem;
+}
+
+.section-four .tab-header .tab:last-child {
+  flex: 1;
+}
+
+.section-four .tab-active {
+  border-bottom: 5px solid #52575c;
+}
+
+.section-four .tab-body {
+  padding: 1rem;
+}
+
+.section-four .tab-body .card-body {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+  align-items: center;
+  -webkit-box-shadow: -1px 0px 13px -7px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 0px 13px -7px rgba(0, 0, 0, 0.75);
+  box-shadow: -1px 0px 13px -7px rgba(0, 0, 0, 0.75);
+  margin-bottom: 1rem;
+}
+
+.section-four .tab-body .card-body .card-item-one {
+  height: 5rem;
+  width: 5rem;
+  background-color: #f3f3f3;
+  margin-right: 1.5rem;
+  border-radius: 10px;
+}
+.section-four .tab-body .card-body .card-item-two {
+  flex: 1;
+}
+.section-four .tab-body .card-body .card-item-three {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 13%;
+}
+.section-four .tab-body .card-body .card-item-three a {
+  color: #c4c4c4;
+}
