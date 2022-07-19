@@ -1,0 +1,43 @@
+.formacion h1 {
+  color: #1e2051;
+  font-size: 2.7rem;
+}
+.formacion h2 {
+  color: #383838;
+}
+
+.formacion .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.formacion .section .one {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.formacion .one .list-card {
+  display: flex;
+  flex: 1;
+  margin-left: 5rem;
+}
+
+.formacion .two .list-curso {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.formacion .two .list-curso h2 {
+  color: #383838;
+  font-weight: 800;
+  margin-right: 1rem;
+}
+
+.formacion .three {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
